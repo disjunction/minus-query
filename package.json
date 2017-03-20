@@ -1,0 +1,32 @@
+{
+  "name": "minus-query",
+  "version": "0.0.1",
+  "description": "decode/encode query string prepended with sequelize or mongo comparison operators",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/disjunction/minus-query.git"
+  },
+  "keywords": [
+    "sequelize",
+    "mongo",
+    "querystring",
+    "decode",
+    "encode",
+    "minus",
+    "hyphen"
+  ],
+  "author": "Konstantin Pogorelov <or@pluseq.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/disjunction/minus-query/issues"
+  },
+  "homepage": "https://github.com/disjunction/minus-query#readme",
+  "devDependencies": {
+    "jasme": "^5.2.0",
+    "standard": "^9.0.2"
+  }
+}
