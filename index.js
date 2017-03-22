@@ -18,7 +18,7 @@ function decodeMongo (o) {
       }
       let compare = {['$' + matches[3]]: value}
       if (matches[2]) {
-        switch(matches[3]) {
+        switch (matches[3]) {
           case 'eq':
             compare = {$ne: value}
             break
